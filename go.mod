@@ -1,8 +1,6 @@
 module github.com/codesenberg/bombardier
 
-go 1.22
-
-toolchain go1.24.0
+go 1.25.0
 
 require (
 	github.com/alecthomas/kingpin v2.2.6+incompatible
@@ -23,7 +21,7 @@ require (
 	github.com/mattn/go-runewidth v0.0.16 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
-	golang.org/x/net v0.35.0 // indirect
-	golang.org/x/sys v0.30.0 // indirect
-	golang.org/x/text v0.22.0 // indirect
+	golang.org/x/net v0.55.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
 )
